@@ -41,7 +41,7 @@ void main()
 		break;
 
 	default:
-		printf("Enter Right Choice...");
+		printf("The choice doesn't match with the given options...");
 		break;
 	}
 
@@ -78,7 +78,7 @@ void india()
 		amount = 100000;
 	}
 	else
-		printf("Enter Correct Choice...");
+		printf("The choice doesn't match with the given options...");
 }
 
 void international()
@@ -110,7 +110,7 @@ void international()
 		amount = 600000;
 	}
 	else
-		printf("Enter Correct Choice...");
+		printf("The choice doesn't match with the given options...");
 }
 
 void details()
@@ -205,6 +205,6 @@ void receipt()
 
 void heading()
 {
-	printf("\t\t\t\t***Tourism Package "
+	printf("\t\t\t\t***Travel Planner "
 		"Management System***\n");
 }
